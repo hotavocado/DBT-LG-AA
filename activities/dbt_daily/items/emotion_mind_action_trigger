@@ -1,0 +1,70 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "emotion_mind_action_trigger",
+    "headerImageSize": " =250x250)\r\n\r\n",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Happiness",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/happiness.png"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Sadness",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/sadness.png"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Anxiety/Fear",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/anxietyFear.png"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Anger",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/anger.png"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Shame",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/shame.png"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Loneliness",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/loneliness.png"
+            },
+            {
+                "schema:value": 7,
+                "schema:name": "Guilt",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/guilt.png"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "Pride",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/DBT-pilot/main/images/png/pride.png"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "Other ",
+                "@type": "schema:option"
+            }
+        ]
+    },
+    "question": "What emotions triggered this event? "
+}
